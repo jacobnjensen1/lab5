@@ -8,6 +8,9 @@
       </nav>
     </header>
     <router-view />
+  <div id="footer">
+    <a href="https://github.com/jnjensen88/lab5">Github Repo</a>
+  </div>
   </div>
 </template>
 
@@ -63,5 +66,12 @@ h2 {
 
 .pure-button-primary {
   background-color: #277E8E;
+}
+
+#footer {
+  background-color: #e74c3c;
+  position: fixed;
+  width: 45rem;
+  padding: .5rem;
 }
 </style>
